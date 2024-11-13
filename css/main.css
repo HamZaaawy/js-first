@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(to right, #6a2b2e, #e64949);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.txt-container {
+  margin-top: 50px;
+  padding: 50px 65px;
+  background-color: #cac3b5;
+  background-color: #efeeee;
+  border-radius: 30px;
+}
+
+.txt-container h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 65px;
+  color: #6a2b2e;
+}
+.txt-container p {
+  font-size: 20px;
+  font-family: serif;
+}
+
+.txt-container button {
+  padding: 15px 30px;
+  background-color: #81bce7;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+
+  transition: all 0.1s;
+}
+.txt-container button:active {
+  background-color: #62afe7;
+}
+
+.qoute-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.qoute-container p,
+.qoute-container span {
+  font-size: 22px;
+  color: #efeeee;
+}
